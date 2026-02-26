@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Terms of Service</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #666666;
+      --card: #f6f7f8;
+      --border: #e6e6e6;
+      --link: #1a7f37;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0c;
+        --fg: #f2f2f2;
+        --muted: #a2a2a2;
+        --card: #141416;
+        --border: #2a2a2e;
+        --link: #4ade80;
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+                   Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+    header {
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 6px 0;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 16px;
+      margin: 18px 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 22px 0 10px;
+      letter-spacing: -0.01em;
+    }
+    p, li { font-size: 16px; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 20px; }
+    code {
+      background: rgba(127,127,127,.15);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.95em;
+    }
+    footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Terms of Service</h1>
+      <div class="meta">
+        App: <strong>[[APP_NAME]]</strong><br />
+        Effective date: <strong>[[EFFECTIVE_DATE]]</strong><br />
+        Contact: <a href="mailto:[[SUPPORT_EMAIL]]">[[SUPPORT_EMAIL]]</a>
+      </div>
+    </header>
+
+    <div class="card">
+      <p>
+        These Terms of Service (“Terms”) govern your use of the <strong>[[APP_NAME]]</strong>
+        mobile application and related services (the “Service”). By using the Service, you
+        agree to these Terms. If you do not agree, do not use the Service.
+      </p>
+    </div>
+
+    <h2>1. Eligibility</h2>
+    <p>
+      You must be at least the minimum age required in your country to use the Service.
+      By using the Service, you represent that you meet this requirement.
+    </p>
+
+    <h2>2. Accounts and Access</h2>
+    <p>
+      Some features may require you to sign in. You are responsible for maintaining the
+      confidentiality of any credentials and for all activity under your account.
+    </p>
+
+    <h2>3. Subscriptions, Billing, and Trials (if applicable)</h2>
+    <p>
+      If you purchase a subscription, payment will be charged to your Apple ID account at
+      confirmation of purchase. Subscriptions automatically renew unless canceled at least
+      24 hours before the end of the current period. Your account will be charged for renewal
+      within 24 hours prior to the end of the current period.
+    </p>
+    <p>
+      You can manage and cancel subscriptions in your device settings:
+      <code>Settings → Apple ID → Subscriptions</code>.
+    </p>
+    <p>
+      Any free trial, if offered, will convert to a paid subscription unless canceled before
+      the trial ends. Pricing and duration are shown in-app at the time of purchase.
+    </p>
+
+    <h2>4. Acceptable Use</h2>
+    <p>You agree not to misuse the Service. For example, you will not:</p>
+    <ul>
+      <li>Attempt to access systems or data you are not authorized to access;</li>
+      <li>Interfere with or disrupt the integrity or performance of the Service;</li>
+      <li>Reverse engineer or attempt to extract source code except where permitted by law;</li>
+      <li>Use the Service to violate applicable laws or regulations.</li>
+    </ul>
+
+    <h2>5. Content and Data</h2>
+    <p>
+      You retain rights to content you submit to the Service. You grant us a limited license
+      to process that content solely to operate and improve the Service.
+    </p>
+    <p>
+      For details on how we handle personal data, see our
+      <a href="[[PRIVACY_POLICY_URL]]">Privacy Policy</a>.
+    </p>
+
+    <h2>6. Health and Nutrition Disclaimer</h2>
+    <p>
+      <strong>[[APP_NAME]]</strong> is for informational purposes only and is not medical advice.
+      Always consult a qualified professional for medical concerns, dietary needs, or treatment.
+      Do not disregard professional advice because of something you read in the Service.
+    </p>
+
+    <h2>7. Intellectual Property</h2>
+    <p>
+      The Service, including its design, text, graphics, and software, is owned by
+      <strong>[[COMPANY_NAME]]</strong> or its licensors and is protected by applicable laws.
+    </p>
+
+    <h2>8. Termination</h2>
+    <p>
+      We may suspend or terminate access to the Service if you violate these Terms or if
+      necessary to protect the Service or other users.
+    </p>
+
+    <h2>9. Disclaimers</h2>
+    <p>
+      The Service is provided “as is” and “as available” without warranties of any kind,
+      express or implied, including merchantability, fitness for a particular purpose, and
+      non-infringement.
+    </p>
+
+    <h2>10. Limitation of Liability</h2>
+    <p>
+      To the maximum extent permitted by law, <strong>[[COMPANY_NAME]]</strong> will not be liable
+      for any indirect, incidental, special, consequential, or punitive damages, or any loss of
+      profits or revenues, whether incurred directly or indirectly.
+    </p>
+
+    <h2>11. Changes to These Terms</h2>
+    <p>
+      We may update these Terms from time to time. If changes are material, we will provide
+      notice by updating the effective date and/or providing in-app notice where appropriate.
+      Your continued use of the Service after changes become effective means you accept the updated Terms.
+    </p>
+
+    <h2>12. Governing Law</h2>
+    <p>
+      These Terms are governed by the laws of <strong>[[JURISDICTION]]</strong>, excluding conflict
+      of law rules, except where your local consumer laws require otherwise.
+    </p>
+
+    <h2>13. Contact</h2>
+    <p>
+      If you have questions about these Terms, contact us at
+      <a href="mailto:[[SUPPORT_EMAIL]]">[[SUPPORT_EMAIL]]</a>.
+    </p>
+
+    <footer>
+      © <span id="y"></span> [[COMPANY_NAME]]. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
